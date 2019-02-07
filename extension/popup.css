@@ -1,0 +1,35 @@
+    .bar {
+        background-color: #1565C0;
+        color: #fff;
+        height: 40px;
+        line-height: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        width: 100%;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+        text-align: center;
+    }
+    .contents {
+        width: 400px;
+    }
+    .copy {
+        text-align: center;
+        height: 20px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    .debug-console {
+        background-color: #333;
+        color: #7F7;
+        padding: 5px;
+        max-height: 400px;
+        overflow-y: scroll;
+    }
+    .debug-console a {
+        color: #7CF;
+        text-decoration: none;
+    }
+    .debug-console a:hover {
+        text-decoration: underline;
+    }

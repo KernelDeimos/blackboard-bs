@@ -1,0 +1,25 @@
+{
+	"name": "BlackBoard BS 0.0.0-alpha",
+	"version": "0.0.0",
+	"browser_action": {
+		"default_icon": "beta.png",
+		"default_popup": "popup.html"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"https://uoit.blackboard.com/*"
+			],
+			"js": [
+				"vendor/jquery-3.2.1.min.js",
+				"lib/content_full.js"
+			]
+		}
+	],
+	"background": {
+		"scripts": [
+			"lib/background_full.js"
+		]
+	},
+	"manifest_version": 2
+}
